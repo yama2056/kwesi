@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/emart_logo"
+        android:layout_gravity="center"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/firstquotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="Shop AnyWhere AnyTime"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/secondquotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:text="get best deals and discount's" />
+
+    <EditText
+        android:id="@+id/edtEmailAddressLog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtPasswordLog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Password"
+
+        />
+
+    <Button
+        android:id="@+id/btnLoginLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20sp"
+        android:textSize="20sp"
+        android:background="@color/black"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnRegisterLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="Register" />
+
+
+
+</LinearLayout>
